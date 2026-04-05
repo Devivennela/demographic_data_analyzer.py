@@ -1,2 +1,9 @@
+
+import pandas as pd
+
 def calculate_demographic_data(print_data=True):
-    # Write ALL your solution code here
+    df = pd.read_csv("adult.data.csv")
+
+    # Your solution here
+
+    return {}
